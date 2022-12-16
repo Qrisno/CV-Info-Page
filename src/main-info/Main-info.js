@@ -1,13 +1,13 @@
-import "./App.css";
-
+import "./Main-info.css";
+import { Footer } from "../footer/Footer";
+import { Header } from "../header/Header";
 export function MainInfo() {
   return (
     <div className="container">
       <Header></Header>
-      <Message header="asd" text="loremdaksdjasljdalkjd"></Message>
       <Footer></Footer>
     </div>
   );
 }
 
-export default App;
+export default MainInfo;
