@@ -1,0 +1,12 @@
+.footer img {
+  width: 30px;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 30px 0 30px 0;
+  width: 100%;
+}
