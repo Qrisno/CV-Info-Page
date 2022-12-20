@@ -1,0 +1,32 @@
+button{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    min-width: 115px;
+    min-height: 34px;
+    border-radius: 5px;
+}
+
+button span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
+
+.email{
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    
+}
+
+.linkedin{
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    color: white;
+}

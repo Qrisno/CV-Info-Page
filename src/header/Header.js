@@ -1,5 +1,8 @@
 import "./Header.css";
 import profile from "../assets/profile.svg";
+import mail from "../assets/mail.svg";
+import link from "../assets/link.svg";
+import { Button } from "../shared/button/Button";
 
 export function Header() {
   return (
@@ -11,8 +14,8 @@ export function Header() {
         <h3>Front End Developer</h3>
         <p>website</p>
       </div>
-      <button>one</button>
-      <button>two</button>
+      <Button text="Email" theme="email" icon={mail} />
+      <Button text="LinkedIn" theme="linkedin" icon={link} />
     </div>
   );
 }
