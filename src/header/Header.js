@@ -14,8 +14,10 @@ export function Header() {
         <h3>Front End Developer</h3>
         <p>website</p>
       </div>
-      <Button text="Email" theme="email" icon={mail} />
+      <Button className="email" text="Email" theme="email" icon={mail} />
       <Button text="LinkedIn" theme="linkedin" icon={link} />
+
+      <p>lorem ipsodalkd askldjakldsj</p>
     </div>
   );
 }
